@@ -1,42 +1,78 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: #b342f4;
+    color: #8229b5;
 }
 
-/*navbar top*/
-/*dropdown*/
-.topdrop {
-    background-color: white;
-    color: #b342f4;
+a {
+    color: #8229b5;
 }
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    background-color: #8229b5;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {}
+
+
+/*navbar top*/
+
+
+/*dropdown*/
+
+.topdrop {
+    background-color: #8229b5;
+    color: white;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
+    background-color: #8229b5;
 }
 
-.topdrop a{
-    color: #b342f4;
+.topdrop a {
+    text-align: center;
+    color: white;
     font-size: 20px;
+    width: 15vw;
 }
 
 .connect-content {
     display: none;
     position: absolute;
     z-index: 1;
+    background-color: #8229b5;
+    top: 40px;
 }
 
 .connect-content a {
     display: block;
 }
 
+.connect-content a:hover {
+    background-color: gold;
+    color: #8229b5;
+    text-decoration: none;
+}
+
 .dropdown:hover .connect-content {
     display: block;
+    /*    top: 45px;*/
 }
 
 .resources-content {
     display: none;
     position: absolute;
     z-index: 1;
+    background-color: #8229b5;
 }
 
 .resources-content a {
@@ -45,6 +81,50 @@ body {
 
 .dropdown:hover .resources-content {
     display: block;
+    top: 45px;
 }
 
+.resources-content:hover {
+    background-color: gold;
+    color: #8229b5;
+    text-decoration: none;
+}
+
+
 /*navbar bottom */
+
+.contact-icons {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-icons i {
+    padding: 5px;
+    width: 35px;
+    background-color: #8229b5;
+    color: white;
+    margin: 10px;
+}
+
+.contact-icons i:hover {
+    padding: 5px;
+    width: 35px;
+    background-color: white;
+    color: #8229b5;
+}
+
+.contact-info p {
+    text-align: center;
+}
+
+
+/*home*/
+
+.weekly-meetings {
+    background-color: white;
+    text-align: center;
+}
+
+.weekly-meetings b {
+    color: #632a84;
+}

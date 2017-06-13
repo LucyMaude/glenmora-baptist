@@ -18,6 +18,46 @@ app.config(["$routeProvider", function ($routeProvider){
         controller: "connectCtrl",
         templateUrl: "connect/connect.html"
     })
+        .when("/values", {
+        controller: "valuesCtrl",
+        templateUrl: "about/values/values.html"
+    })
+        .when("/vision", {
+        controller: "visionCtrl",
+        templateUrl: "about/vision/vision.html"
+    })
+        .when("/beliefs", {
+        controller: "beliefsCtrl",
+        templateUrl: "about/beliefs/beliefs.html"
+    })
+        .when("/leadership", {
+        controller: "leadershipCtrl",
+        templateUrl: "about/leadership/leadership.html"
+    })
+        .when("/partners", {
+        controller: "partnersCtrl",
+        templateUrl: "about/partners/partners.html"
+    })
+        .when("/missions", {
+        controller: "missionsCtrl",
+        templateUrl: "connect/mission/mission.html"
+    })
+        .when("/kids", {
+        controller: "kidsCtrl",
+        templateUrl: "connect/kids/kids.html"
+    })
+        .when("/youth", {
+        controller: "youthCtrl",
+        templateUrl: "connect/youth/youth.html"
+    })
+        .when("/women", {
+        controller: "womenCtrl",
+        templateUrl: "connect/women/women.html"
+    })
+        .when("/sermons", {
+        controller: "sermonsCtrl",
+        templateUrl: "/resources/sermons/sermons.html"
+    })
     .otherwise({
         redirectTo: "/home",
     });
