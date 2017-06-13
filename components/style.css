@@ -17,9 +17,13 @@ ul {
 
 ul a {
     color: white;
+    text-decoration: none;
 }
 
-ul a:hover {}
+.listed-menu :hover {
+    background-color: gold;
+    color: #8229b5;
+}
 
 
 /*navbar top*/
