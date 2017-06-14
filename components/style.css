@@ -20,7 +20,10 @@ ul a {
     text-decoration: none;
 }
 
-.listed-menu :hover {
+.listed-menu a{
+    text-decoration: none;
+}
+.listed-menu li:hover {
     background-color: gold;
     color: #8229b5;
 }
@@ -131,4 +134,24 @@ ul a {
 
 .weekly-meetings b {
     color: #632a84;
+}
+
+/*beliefs page*/
+.scripture {
+/*    border: 3px solid black;*/
+    background-color: #8229b5;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/*leadership page*/
+.leadership-photo {
+  margin: 5px;  
+}
+
+/*partner page*/
+.partner-pic {
+    max-height: 200px;
+    margin: 10px;
 }
